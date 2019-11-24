@@ -28,5 +28,10 @@ mx
 [elastic_servers]
 elsearch01
 elsearch02
+
+
+[ELK]
+elsearch01
+elsearch02
 kibana
 logstash
