@@ -1,0 +1,13 @@
+- hosts: proxmox
+  tasks:
+  
+   - name: new-container
+     proxmox:
+       vmid: 150
+       node: host
+       api_user: root@pam
+       api_password: 2pG6BPE2
+       api_host: host
+       password: 2pG6BPE2
+       hostname: host.yaki-mov.ru
+       ostemplate: 'local:vztmpl/ubuntu-18.04-standart_18.04.1-1_amd64.tar.gz'
