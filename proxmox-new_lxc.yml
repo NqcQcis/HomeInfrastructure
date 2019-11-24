@@ -1,12 +1,12 @@
 - hosts: proxmox
   tasks:
   
-   - name: new-container2
+   - name: new-container
      proxmox:
        node: host
        api_user: root@pam
        api_password: 2pG6BPE2
        api_host: host.yaki-mov.ru
        password: 2pG6BPE2
-       hostname: web-proxy
+       hostname: web-proxy2
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
