@@ -9,7 +9,8 @@
    - name: Add repo key
      apt_key: 
        url: 'https://artifacts.elastic.co/GPG-KEY-elasticsearch'
-       state: present update_cache=yes
+       state: present 
+       update_cache: yes
    
    - name: Add repositories
      apt_repository: 
