@@ -4,7 +4,7 @@
    - name: new-container
      proxmox:
        vmid: 150
-       node: host.yaki-mov.ru
+       node: host
        api_user: root@pam
        api_password: 2pG6BPE2
        api_host: host.yaki-mov.ru
