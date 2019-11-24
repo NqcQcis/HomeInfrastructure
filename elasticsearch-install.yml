@@ -1,4 +1,17 @@
 - hosts: all
   tasks:
+  
+   - name: Install apt-https
+     apt: 
+       name: apt-transport-https
+       state: present
+  
+   - name: Add repo key
+     apt_key: 
+       url: 'https://artifacts.elastic.co/GPG-KEY-elasticsearch'
+       state: present update_cache=yes
+   
    - name: Add repositories
-     apt_repository: repo='deb https://artifacts.elastic.co/packages/6.x/apt stable main' state=present
+     apt_repository: 
+       repo: 'deb https://artifacts.elastic.co/packages/6.x/apt stable main'
+       state: present
