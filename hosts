@@ -35,3 +35,6 @@ elsearch01
 elsearch02
 kibana
 logstash
+
+[proxmox]
+host
