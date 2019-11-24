@@ -10,4 +10,4 @@
        api_host: host.yaki-mov.ru
        password: 2pG6BPE2
        hostname: host.yaki-mov.ru
-       ostemplate: 'local:vztmpl/ubuntu-18.04-standart_18.04.1-1_amd64.tar.gz'
+       ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
