@@ -3,11 +3,10 @@
   
    - name: new-container
      proxmox:
-       vmid: 150
        node: host
        api_user: root@pam
        api_password: 2pG6BPE2
        api_host: host.yaki-mov.ru
        password: 2pG6BPE2
-       hostname: host.yaki-mov.ru
+       hostname: web-proxy
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
