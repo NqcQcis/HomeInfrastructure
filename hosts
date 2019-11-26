@@ -41,4 +41,4 @@ logstash
 host
 
 [routers]
-mikrotik ansible_user=root ansible_network_os=routeros
+mikrotik ansible_user=root ansible_network_os=routeros ansible_ssh_pass=2pG6BPE2
