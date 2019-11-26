@@ -9,8 +9,3 @@
     - name: system command
       routeros_command:
         commands: /system routerboard print
-      register: system_print
-
-    - name: debug print
-
-      debug: var=system_print.stdout_lines
