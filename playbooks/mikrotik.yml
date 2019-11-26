@@ -1,5 +1,4 @@
 - hosts: routers
-  tasks:
   gather_facts: false
   tasks:
     - name: system command
