@@ -39,3 +39,6 @@ logstash
 
 [proxmox]
 host
+
+[routers]
+mikrotik
