@@ -147,3 +147,65 @@
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
        timeout: 90
        unprivileged: yes
+       
+   - name: start-container web-proxy
+     proxmox:
+       node: host
+       api_user: root@pam
+       api_password: 2pG6BPE2
+       api_host: host.yaki-mov.ru
+       hostname: web-proxy
+       state: started
+   - name: start-container zabbix
+     proxmox:
+       node: host
+       api_user: root@pam
+       api_password: 2pG6BPE2
+       api_host: host.yaki-mov.ru
+       hostname: zabbix
+       state: started
+       
+   - name: start-container elsearch01
+     proxmox:
+       node: host
+       api_user: root@pam
+       api_password: 2pG6BPE2
+       api_host: host.yaki-mov.ru
+       hostname: elsearch01
+       state: started
+
+   - name: start-container elsearch02
+     proxmox:
+       node: host
+       api_user: root@pam
+       api_password: 2pG6BPE2
+       api_host: host.yaki-mov.ru
+       hostname: elsearch02
+       state: started
+
+   - name: start-container logstash
+     proxmox:
+       node: host
+       api_user: root@pam
+       api_password: 2pG6BPE2
+       api_host: host.yaki-mov.ru
+       hostname: logstash
+       state: started
+       
+   - name: start-container kibana
+     proxmox:
+       node: host
+       api_user: root@pam
+       api_password: 2pG6BPE2
+       api_host: host.yaki-mov.ru
+       hostname: kibana
+       state: started
+       
+   - name: start-container grafana
+     proxmox:
+       node: host
+       api_user: root@pam
+       api_password: 2pG6BPE2
+       api_host: host.yaki-mov.ru
+       hostname: grafana
+       state: started
