@@ -9,7 +9,7 @@ grafana ansible_ssh_host=grafana.yaki-mov.ru
 host ansible_ssh_host=host.yaki-mov.ru
 mx ansible_ssh_host=mx.yaki-mov.ru
 web-proxy  ansible_ssh_host=web-proxy.yaki-mov.ru
-mikrotik  ansible_ssh_host=192.168.169.30
+mikrotik  ansible_ssh_host=192.168.169.253
 
 [ubuntu_servers]
 zabbix
