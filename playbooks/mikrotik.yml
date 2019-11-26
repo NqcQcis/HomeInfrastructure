@@ -1,11 +1,11 @@
 - hosts: routers
+  user: root
   gather_facts: false
+  connection: local
+
+  vars:
+  - ansible_ssh_user: root
   tasks:
     - name: system command
       routeros_command:
         commands: /system routerboard print
-      register: system_print
-
-    - name: debug print
-
-      debug: var=system_print.stdout_lines
