@@ -41,4 +41,4 @@ logstash
 host
 
 [routers]
-mikrotik
+mikrotik ansible_network_os=routeros
