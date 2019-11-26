@@ -19,7 +19,6 @@
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.8/24,bridge=vmbr0"}'
        storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
-       unprivileged: yes
        timeout: 90
        
    - name: new-container zabbix
@@ -40,7 +39,6 @@
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.3/24,bridge=vmbr0"}'
        storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
-       unprivileged: yes
        timeout: 90
        
    - name: new-container elsearch01
@@ -61,7 +59,6 @@
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.4/24,bridge=vmbr0"}'
        storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
-       unprivileged: yes
        timeout: 90
        
    - name: new-container elsearch02
@@ -82,7 +79,6 @@
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.10/24,bridge=vmbr0"}'
        storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
-       unprivileged: yes
        timeout: 90
 
    - name: new-container logstash
@@ -103,7 +99,6 @@
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.5/24,bridge=vmbr0"}'
        storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
-       unprivileged: yes
        timeout: 90
 
    - name: new-container kibana
@@ -124,7 +119,6 @@
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.6/24,bridge=vmbr0"}'
        storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
-       unprivileged: yes
        timeout: 90
        
    - name: new-container grafana
@@ -145,7 +139,6 @@
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.7/24,bridge=vmbr0"}'
        storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
-       unprivileged: yes
        timeout: 90
        
    - name: start-container web-proxy
