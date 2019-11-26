@@ -17,7 +17,7 @@
        pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5o2DkpWOxAdGwgjmafLhQ+5X7M3wyBSB0VwYWFi8/rH7P+YdPItpvlkfanxOZrkJkwhVa7bvg8Syl7IC2aH6r2izuW2XkgJrIjzDxeRB6gGlatTZphXncdQeCQbMpoSX7ifjLPdSuM9apdCJhBVqZdvWq8UP3svEqCqCInWmainUPcbLhjCPibuCzA1uaznUz9lOC4sYk/vJsF4I2kzJ9DGgmMfwm3h7nAw3e3vh1JK12ynolzhz4Wu/Dr3Ih5n3jPy6z5iSWcdZDo4HWBB34B1dhOmCNlETDLTgrHyHSR9SbzueVQ0eFEapRQ3YteL5RW1lJAXLxYJwqZJC7LfL5brGY0rwe+0hXcLS2qKPM2nSbSh1lFGFoT9WXM1qlhTx++jf83W04LkDcE5p7FXZBJy0t1TuWcVJTwlyzxzcZDl8bQEaepTBRnqkTD+ZjAXFisvscjuh0CNE9LGjNWjlaAAmyrl4kKgUNGVl0XJi+wHSFOFRTCOuJXUhMNrVVZ/dbqSK1npEb9YsZvRRLVIxqVqmfV8Da2CkXimpLkd2kTu0JEMNjKp5NQgdst4lDC81hT4hM1t8U2JSpCwj5uqDt2teUVhK8SKtBJ0Ngx27FW7OzVAXVSPuNPH2jsS9+MUkXn/3AeH2567qHspRJ27O7DWOwLrQRGySkenIRq/ZJLQ== semen@yaki-mov.ru"
        searchdomain: yaki-mov.ru
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.8/24,bridge=vmbr0"}'
-       storage: local-vm
+       storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
        unprivileged: yes
        timeout: 90
@@ -38,7 +38,7 @@
        pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5o2DkpWOxAdGwgjmafLhQ+5X7M3wyBSB0VwYWFi8/rH7P+YdPItpvlkfanxOZrkJkwhVa7bvg8Syl7IC2aH6r2izuW2XkgJrIjzDxeRB6gGlatTZphXncdQeCQbMpoSX7ifjLPdSuM9apdCJhBVqZdvWq8UP3svEqCqCInWmainUPcbLhjCPibuCzA1uaznUz9lOC4sYk/vJsF4I2kzJ9DGgmMfwm3h7nAw3e3vh1JK12ynolzhz4Wu/Dr3Ih5n3jPy6z5iSWcdZDo4HWBB34B1dhOmCNlETDLTgrHyHSR9SbzueVQ0eFEapRQ3YteL5RW1lJAXLxYJwqZJC7LfL5brGY0rwe+0hXcLS2qKPM2nSbSh1lFGFoT9WXM1qlhTx++jf83W04LkDcE5p7FXZBJy0t1TuWcVJTwlyzxzcZDl8bQEaepTBRnqkTD+ZjAXFisvscjuh0CNE9LGjNWjlaAAmyrl4kKgUNGVl0XJi+wHSFOFRTCOuJXUhMNrVVZ/dbqSK1npEb9YsZvRRLVIxqVqmfV8Da2CkXimpLkd2kTu0JEMNjKp5NQgdst4lDC81hT4hM1t8U2JSpCwj5uqDt2teUVhK8SKtBJ0Ngx27FW7OzVAXVSPuNPH2jsS9+MUkXn/3AeH2567qHspRJ27O7DWOwLrQRGySkenIRq/ZJLQ== semen@yaki-mov.ru"
        searchdomain: yaki-mov.ru
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.3/24,bridge=vmbr0"}'
-       storage: local-vm
+       storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
        unprivileged: yes
        timeout: 90
@@ -59,7 +59,7 @@
        pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5o2DkpWOxAdGwgjmafLhQ+5X7M3wyBSB0VwYWFi8/rH7P+YdPItpvlkfanxOZrkJkwhVa7bvg8Syl7IC2aH6r2izuW2XkgJrIjzDxeRB6gGlatTZphXncdQeCQbMpoSX7ifjLPdSuM9apdCJhBVqZdvWq8UP3svEqCqCInWmainUPcbLhjCPibuCzA1uaznUz9lOC4sYk/vJsF4I2kzJ9DGgmMfwm3h7nAw3e3vh1JK12ynolzhz4Wu/Dr3Ih5n3jPy6z5iSWcdZDo4HWBB34B1dhOmCNlETDLTgrHyHSR9SbzueVQ0eFEapRQ3YteL5RW1lJAXLxYJwqZJC7LfL5brGY0rwe+0hXcLS2qKPM2nSbSh1lFGFoT9WXM1qlhTx++jf83W04LkDcE5p7FXZBJy0t1TuWcVJTwlyzxzcZDl8bQEaepTBRnqkTD+ZjAXFisvscjuh0CNE9LGjNWjlaAAmyrl4kKgUNGVl0XJi+wHSFOFRTCOuJXUhMNrVVZ/dbqSK1npEb9YsZvRRLVIxqVqmfV8Da2CkXimpLkd2kTu0JEMNjKp5NQgdst4lDC81hT4hM1t8U2JSpCwj5uqDt2teUVhK8SKtBJ0Ngx27FW7OzVAXVSPuNPH2jsS9+MUkXn/3AeH2567qHspRJ27O7DWOwLrQRGySkenIRq/ZJLQ== semen@yaki-mov.ru"
        searchdomain: yaki-mov.ru
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.4/24,bridge=vmbr0"}'
-       storage: local-vm
+       storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
        unprivileged: yes
        timeout: 90
@@ -80,7 +80,7 @@
        pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5o2DkpWOxAdGwgjmafLhQ+5X7M3wyBSB0VwYWFi8/rH7P+YdPItpvlkfanxOZrkJkwhVa7bvg8Syl7IC2aH6r2izuW2XkgJrIjzDxeRB6gGlatTZphXncdQeCQbMpoSX7ifjLPdSuM9apdCJhBVqZdvWq8UP3svEqCqCInWmainUPcbLhjCPibuCzA1uaznUz9lOC4sYk/vJsF4I2kzJ9DGgmMfwm3h7nAw3e3vh1JK12ynolzhz4Wu/Dr3Ih5n3jPy6z5iSWcdZDo4HWBB34B1dhOmCNlETDLTgrHyHSR9SbzueVQ0eFEapRQ3YteL5RW1lJAXLxYJwqZJC7LfL5brGY0rwe+0hXcLS2qKPM2nSbSh1lFGFoT9WXM1qlhTx++jf83W04LkDcE5p7FXZBJy0t1TuWcVJTwlyzxzcZDl8bQEaepTBRnqkTD+ZjAXFisvscjuh0CNE9LGjNWjlaAAmyrl4kKgUNGVl0XJi+wHSFOFRTCOuJXUhMNrVVZ/dbqSK1npEb9YsZvRRLVIxqVqmfV8Da2CkXimpLkd2kTu0JEMNjKp5NQgdst4lDC81hT4hM1t8U2JSpCwj5uqDt2teUVhK8SKtBJ0Ngx27FW7OzVAXVSPuNPH2jsS9+MUkXn/3AeH2567qHspRJ27O7DWOwLrQRGySkenIRq/ZJLQ== semen@yaki-mov.ru"
        searchdomain: yaki-mov.ru
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.10/24,bridge=vmbr0"}'
-       storage: local-vm
+       storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
        unprivileged: yes
        timeout: 90
@@ -101,7 +101,7 @@
        pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5o2DkpWOxAdGwgjmafLhQ+5X7M3wyBSB0VwYWFi8/rH7P+YdPItpvlkfanxOZrkJkwhVa7bvg8Syl7IC2aH6r2izuW2XkgJrIjzDxeRB6gGlatTZphXncdQeCQbMpoSX7ifjLPdSuM9apdCJhBVqZdvWq8UP3svEqCqCInWmainUPcbLhjCPibuCzA1uaznUz9lOC4sYk/vJsF4I2kzJ9DGgmMfwm3h7nAw3e3vh1JK12ynolzhz4Wu/Dr3Ih5n3jPy6z5iSWcdZDo4HWBB34B1dhOmCNlETDLTgrHyHSR9SbzueVQ0eFEapRQ3YteL5RW1lJAXLxYJwqZJC7LfL5brGY0rwe+0hXcLS2qKPM2nSbSh1lFGFoT9WXM1qlhTx++jf83W04LkDcE5p7FXZBJy0t1TuWcVJTwlyzxzcZDl8bQEaepTBRnqkTD+ZjAXFisvscjuh0CNE9LGjNWjlaAAmyrl4kKgUNGVl0XJi+wHSFOFRTCOuJXUhMNrVVZ/dbqSK1npEb9YsZvRRLVIxqVqmfV8Da2CkXimpLkd2kTu0JEMNjKp5NQgdst4lDC81hT4hM1t8U2JSpCwj5uqDt2teUVhK8SKtBJ0Ngx27FW7OzVAXVSPuNPH2jsS9+MUkXn/3AeH2567qHspRJ27O7DWOwLrQRGySkenIRq/ZJLQ== semen@yaki-mov.ru"
        searchdomain: yaki-mov.ru
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.5/24,bridge=vmbr0"}'
-       storage: local-vm
+       storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
        unprivileged: yes
        timeout: 90
@@ -122,7 +122,7 @@
        pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5o2DkpWOxAdGwgjmafLhQ+5X7M3wyBSB0VwYWFi8/rH7P+YdPItpvlkfanxOZrkJkwhVa7bvg8Syl7IC2aH6r2izuW2XkgJrIjzDxeRB6gGlatTZphXncdQeCQbMpoSX7ifjLPdSuM9apdCJhBVqZdvWq8UP3svEqCqCInWmainUPcbLhjCPibuCzA1uaznUz9lOC4sYk/vJsF4I2kzJ9DGgmMfwm3h7nAw3e3vh1JK12ynolzhz4Wu/Dr3Ih5n3jPy6z5iSWcdZDo4HWBB34B1dhOmCNlETDLTgrHyHSR9SbzueVQ0eFEapRQ3YteL5RW1lJAXLxYJwqZJC7LfL5brGY0rwe+0hXcLS2qKPM2nSbSh1lFGFoT9WXM1qlhTx++jf83W04LkDcE5p7FXZBJy0t1TuWcVJTwlyzxzcZDl8bQEaepTBRnqkTD+ZjAXFisvscjuh0CNE9LGjNWjlaAAmyrl4kKgUNGVl0XJi+wHSFOFRTCOuJXUhMNrVVZ/dbqSK1npEb9YsZvRRLVIxqVqmfV8Da2CkXimpLkd2kTu0JEMNjKp5NQgdst4lDC81hT4hM1t8U2JSpCwj5uqDt2teUVhK8SKtBJ0Ngx27FW7OzVAXVSPuNPH2jsS9+MUkXn/3AeH2567qHspRJ27O7DWOwLrQRGySkenIRq/ZJLQ== semen@yaki-mov.ru"
        searchdomain: yaki-mov.ru
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.6/24,bridge=vmbr0"}'
-       storage: local-vm
+       storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
        unprivileged: yes
        timeout: 90
@@ -143,7 +143,7 @@
        pubkey: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC5o2DkpWOxAdGwgjmafLhQ+5X7M3wyBSB0VwYWFi8/rH7P+YdPItpvlkfanxOZrkJkwhVa7bvg8Syl7IC2aH6r2izuW2XkgJrIjzDxeRB6gGlatTZphXncdQeCQbMpoSX7ifjLPdSuM9apdCJhBVqZdvWq8UP3svEqCqCInWmainUPcbLhjCPibuCzA1uaznUz9lOC4sYk/vJsF4I2kzJ9DGgmMfwm3h7nAw3e3vh1JK12ynolzhz4Wu/Dr3Ih5n3jPy6z5iSWcdZDo4HWBB34B1dhOmCNlETDLTgrHyHSR9SbzueVQ0eFEapRQ3YteL5RW1lJAXLxYJwqZJC7LfL5brGY0rwe+0hXcLS2qKPM2nSbSh1lFGFoT9WXM1qlhTx++jf83W04LkDcE5p7FXZBJy0t1TuWcVJTwlyzxzcZDl8bQEaepTBRnqkTD+ZjAXFisvscjuh0CNE9LGjNWjlaAAmyrl4kKgUNGVl0XJi+wHSFOFRTCOuJXUhMNrVVZ/dbqSK1npEb9YsZvRRLVIxqVqmfV8Da2CkXimpLkd2kTu0JEMNjKp5NQgdst4lDC81hT4hM1t8U2JSpCwj5uqDt2teUVhK8SKtBJ0Ngx27FW7OzVAXVSPuNPH2jsS9+MUkXn/3AeH2567qHspRJ27O7DWOwLrQRGySkenIRq/ZJLQ== semen@yaki-mov.ru"
        searchdomain: yaki-mov.ru
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.7/24,bridge=vmbr0"}'
-       storage: local-vm
+       storage: 'local-vm'
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
        unprivileged: yes
        timeout: 90
