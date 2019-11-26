@@ -19,5 +19,4 @@
        netif: '{"net0":"name=eth0,gw=192.168.169.254,ip=192.168.169.8/24,bridge=vmbr0"}'
        storage: local-vm
        ostemplate: 'local:vztmpl/ubuntu-18.04-standard_18.04.1-1_amd64.tar.gz'
-       state: started
        timeout: 90
