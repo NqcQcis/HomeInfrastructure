@@ -1,7 +1,7 @@
 - hosts: routers
   user: root
   gather_facts: false
-  connection: local
+  connection: network_cli
 
   vars:
   - ansible_ssh_user: root
@@ -9,3 +9,4 @@
     - name: system command
       routeros_command:
         commands: /system routerboard print
+
