@@ -1,6 +1,7 @@
 - hosts: proxmox
   tasks:
   
+  
    - name: new-container web-proxy
      proxmox:
        node: host
