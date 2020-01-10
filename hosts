@@ -51,3 +51,5 @@ upstream_name_cloud=cloud
 upstream_url_cloud=cloud.yaki-mov.ru
 upstream_name_host=host
 upstream_url_host=host.yaki-mov.ru
+upstream_name_torrent=torrent
+upstream_url_torrent=torrent.yaki-mov.ru
