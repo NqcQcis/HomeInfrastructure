@@ -64,3 +64,6 @@ upstream_url_mysql=mysql.yaki-mov.ru
 
 upstream_name_ldap=ldap
 upstream_url_ldap=ldap.yaki-mov.ru
+
+upstream_name_mail=mail
+upstream_url_mail=mail.yaki-mov.ru

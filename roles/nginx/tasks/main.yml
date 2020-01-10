@@ -37,5 +37,10 @@
     src=templates/ldap.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_ldap }}.conf 
  
+ - name: Add NGINX mail config
+  template:
+    src=templates/mail.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_mail }}.conf 
+ 
   notify:
     - NGINX reload
