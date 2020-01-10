@@ -47,7 +47,7 @@
     src=templates/rocket.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_rocket }}.conf 
  
- - name: Add NGINX postfix config
+- name: Add NGINX postfix config
   template:
     src=templates/postfix.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_postfix }}.conf 
