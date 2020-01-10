@@ -49,3 +49,5 @@ web-proxy
 [web_servers:vars]
 upstream_name_cloud=cloud
 upstream_url_cloud=cloud.yaki-mov.ru
+upstream_name_host=host
+upstream_url_host=host.yaki-mov.ru
