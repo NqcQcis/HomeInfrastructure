@@ -61,3 +61,6 @@ upstream_url_plex=plex.yaki-mov.ru
 
 upstream_name_phpmyadmin=phpmyadmin
 upstream_url_phpmyadmin=phpmyadmin.yaki-mov.ru
+
+upstream_name_ldap=ldap
+upstream_url_ldap=ldap.yaki-mov.ru

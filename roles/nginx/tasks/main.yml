@@ -31,6 +31,11 @@
   template:
     src=templates/phpmyadmin.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_phpmyadmin }}.conf
-    
+
+- name: Add NGINX ldap config
+  template:
+    src=templates/ldap.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_ldap }}.conf 
+ 
   notify:
     - NGINX reload
