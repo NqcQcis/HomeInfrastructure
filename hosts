@@ -70,3 +70,6 @@ upstream_url_mail=mail.yaki-mov.ru
 
 upstream_name_rocket=rocket
 upstream_url_rocket=rocket.yaki-mov.ru
+
+upstream_name_postfix=postfix
+upstream_url_postfix=postfix.yaki-mov.ru
