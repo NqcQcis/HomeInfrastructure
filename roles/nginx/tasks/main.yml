@@ -41,6 +41,11 @@
   template:
     src=templates/mail.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_mail }}.conf 
+
+- name: Add NGINX rocket config
+  template:
+    src=templates/rocket.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_rocket }}.conf 
  
   notify:
     - NGINX reload
