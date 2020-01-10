@@ -1,4 +1,4 @@
-- hosts: web-proxy
+- hosts: web_servers
   become:  
     true
   become_method:
