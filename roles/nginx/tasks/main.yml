@@ -22,5 +22,10 @@
     src=templates/torrent.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_torrent }}.conf
     
+- name: Add NGINX plex config
+  template:
+    src=templates/plex.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_plex }}.conf
+    
   notify:
     - NGINX reload
