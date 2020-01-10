@@ -26,6 +26,11 @@
   template:
     src=templates/plex.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_plex }}.conf
+
+- name: Add NGINX phpmyadmin config
+  template:
+    src=templates/phpmyadmin.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_phpmyadmin }}.conf
     
   notify:
     - NGINX reload

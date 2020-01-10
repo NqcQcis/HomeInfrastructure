@@ -49,9 +49,15 @@ web-proxy
 [web_servers:vars]
 upstream_name_cloud=cloud
 upstream_url_cloud=cloud.yaki-mov.ru
+
 upstream_name_host=host
 upstream_url_host=host.yaki-mov.ru
+
 upstream_name_torrent=torrent
 upstream_url_torrent=torrent.yaki-mov.ru
+
 upstream_name_plex=plex
 upstream_url_plex=plex.yaki-mov.ru
+
+upstream_name_phpmyadmin=phpmyadmin
+upstream_url_phpmyadmin=phpmyadmin.yaki-mov.ru
