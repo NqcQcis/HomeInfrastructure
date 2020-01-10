@@ -16,5 +16,11 @@
   template:
     src=templates/host.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_host }}.conf
+    
+- name: Add NGINX torrent config
+  template:
+    src=templates/torrent.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_torrent }}.conf
+    
   notify:
     - NGINX reload
