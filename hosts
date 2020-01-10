@@ -53,3 +53,5 @@ upstream_name_host=host
 upstream_url_host=host.yaki-mov.ru
 upstream_name_torrent=torrent
 upstream_url_torrent=torrent.yaki-mov.ru
+upstream_name_plex=plex
+upstream_url_plex=plex.yaki-mov.ru
