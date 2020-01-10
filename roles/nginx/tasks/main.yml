@@ -7,9 +7,14 @@
     src=templates/nginx.conf
     dest=/etc/nginx/nginx.conf
 
-- name: Add NGINX virtualhost config
+- name: Add NGINX cloud config
   template:
     src=templates/cloud.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_cloud }}.conf
+    
+- name: Add NGINX host config
+  template:
+    src=templates/host.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_host }}.conf
   notify:
     - NGINX reload
