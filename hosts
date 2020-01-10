@@ -59,8 +59,8 @@ upstream_url_torrent=torrent.yaki-mov.ru
 upstream_name_plex=plex
 upstream_url_plex=plex.yaki-mov.ru
 
-upstream_name_phpmyadmin=phpmyadmin
-upstream_url_phpmyadmin=phpmyadmin.yaki-mov.ru
+upstream_name_mysql=mysql
+upstream_url_mysql=mysql.yaki-mov.ru
 
 upstream_name_ldap=ldap
 upstream_url_ldap=ldap.yaki-mov.ru
