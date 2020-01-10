@@ -27,10 +27,10 @@
     src=templates/plex.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_plex }}.conf
 
-- name: Add NGINX phpmyadmin config
+- name: Add NGINX mysql config
   template:
-    src=templates/phpmyadmin.conf
-    dest=/etc/nginx/conf.d/{{ upstream_url_phpmyadmin }}.conf
+    src=templates/mysql.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_mysql }}.conf
 
 - name: Add NGINX ldap config
   template:
