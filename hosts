@@ -42,3 +42,10 @@ host
 
 [routers]
 mikrotik ansible_user=root ansible_network_os=routeros ansible_ssh_pass=2pG6BPE2
+
+[web_servers]
+web-proxy
+
+[web_servers:vars]
+upstream_name_cloud=cloud
+upstream_url_cloud=cloud.yaki-mov.ru
