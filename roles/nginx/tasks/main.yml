@@ -51,6 +51,10 @@
   template:
     src=templates/postfix.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_postfix }}.conf 
+
+- name: Set timezone to Asia/Irkutsk
+  timezone:
+    name: Asia/Irkutsk
  
   notify:
     - NGINX reload
