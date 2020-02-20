@@ -42,11 +42,6 @@
     src=templates/mail.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_mail }}.conf 
 
-- name: Add NGINX rocket config
-  template:
-    src=templates/rocket.conf
-    dest=/etc/nginx/conf.d/{{ upstream_url_rocket }}.conf 
- 
 - name: Add NGINX postfix config
   template:
     src=templates/postfix.conf
