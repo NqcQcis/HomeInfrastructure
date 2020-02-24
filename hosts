@@ -10,6 +10,7 @@ host ansible_ssh_host=host.yaki-mov.ru
 mx ansible_ssh_host=mx.yaki-mov.ru
 web-proxy  ansible_ssh_host=web-proxy.yaki-mov.ru
 mikrotik  ansible_ssh_host=192.168.169.253
+ubuntu ansible_ssh_host=12.168.169.24
 
 [ubuntu_servers]
 zabbix
@@ -20,6 +21,9 @@ kibana
 grafana
 host
 web-proxy
+
+[test_servers]
+ubuntu
 
 
 [centos_servers]
@@ -73,3 +77,6 @@ upstream_url_rocket=rocket.yaki-mov.ru
 
 upstream_name_postfix=postfix
 upstream_url_postfix=postfix.yaki-mov.ru
+
+upstream_name_test=test
+upstream_url_test=test.yaki-mov.ru
