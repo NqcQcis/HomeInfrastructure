@@ -56,6 +56,13 @@
   timezone:
     name: Asia/Irkutsk
 
+- name: Install Nginx, zsh, wget, git
+  apt:
+    pkg:
+    - nginx
+    - zsh
+    - wget
+    - git
 
   notify:
     - NGINX reload
