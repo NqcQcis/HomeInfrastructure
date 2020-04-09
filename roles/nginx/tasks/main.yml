@@ -52,11 +52,6 @@
     src=templates/web.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_web }}.conf
     
-- name: Add NGINX turn config
-  template:
-    src=templates/turn.conf
-    dest=/etc/nginx/conf.d/{{ upstream_url_turn }}.conf
-
 - name: Set timezone to Asia/Irkutsk
   timezone:
     name: Asia/Irkutsk
