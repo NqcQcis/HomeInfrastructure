@@ -79,7 +79,7 @@ upstream_name_postfix=postfix
 upstream_url_postfix=postfix.yaki-mov.ru
 
 upstream_name_turn=turn
-upstream_url_turn=turn-back.yaki-mov.ru
+upstream_url_turn=turn.yaki-mov.ru
 
 upstream_name_web=web
-upstream_url_web=web-back.yaki-mov.ru
+upstream_url_web=web.yaki-mov.ru
