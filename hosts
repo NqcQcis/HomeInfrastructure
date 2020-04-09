@@ -78,5 +78,8 @@ upstream_url_rocket=rocket.yaki-mov.ru
 upstream_name_postfix=postfix
 upstream_url_postfix=postfix.yaki-mov.ru
 
-upstream_name_test=test
-upstream_url_test=test.yaki-mov.ru
+upstream_name_turn=turn
+upstream_url_turn=turn-back.yaki-mov.ru
+
+upstream_name_web=web
+upstream_url_web=web-back.yaki-mov.ru

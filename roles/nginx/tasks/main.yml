@@ -47,10 +47,15 @@
     src=templates/postfix.conf
     dest=/etc/nginx/conf.d/{{ upstream_url_postfix }}.conf 
 
-- name: Add NGINX test config
+- name: Add NGINX web config
   template:
-    src=templates/test.conf
-    dest=/etc/nginx/conf.d/{{ upstream_url_test }}.conf
+    src=templates/web.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_web }}.conf
+    
+- name: Add NGINX turn config
+  template:
+    src=templates/turn.conf
+    dest=/etc/nginx/conf.d/{{ upstream_url_turn }}.conf
 
 - name: Set timezone to Asia/Irkutsk
   timezone:
