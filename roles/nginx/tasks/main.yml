@@ -56,6 +56,6 @@
   timezone:
     name: Asia/Irkutsk
   
- - name: Nginx reload 
+- name: Nginx reload 
   notify:
     - NGINX reload
