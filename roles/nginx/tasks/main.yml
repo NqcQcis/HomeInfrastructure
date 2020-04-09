@@ -55,7 +55,5 @@
 - name: Set timezone to Asia/Irkutsk
   timezone:
     name: Asia/Irkutsk
-  
-- name: Nginx reload 
   notify:
     - NGINX reload
